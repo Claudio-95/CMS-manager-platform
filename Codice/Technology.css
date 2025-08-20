@@ -1,0 +1,72 @@
+/* CSS Document "Technology" */
+/* FONT E STILE GENERALE */
+
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+
+body {
+    font-family: Roboto, sans-serif;
+    background-image: url(img/Technology.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+}
+
+    /* HEADER */
+
+    header {
+        background-color: #3CB371;
+    }
+
+    /* CONTENT */
+
+    #content-blog {
+        background-color: rgba(135, 135, 135, 0.7);
+    }
+
+        /* Input text cercaCoautore */
+
+        #cercaCoautore {
+            background-color: #37BD7E;
+        }
+
+        #cercaCoautore::placeholder {
+            color: #000000;
+        }
+
+        /* Grafica blog */
+
+        #graficaBlog {
+            background-color: #37BD7E;
+        }
+
+        /* Textarea */
+
+        textarea {
+            background-color: #37BD7E;
+        }
+
+        textarea::placeholder {
+            color: #000000;
+        }
+
+        /* Tutti i pulsanti */
+
+        #back, #Btn, #changeGraphic, #pubblicaPost, #mettiLike, #mettiDislike, #confermaEliminazione, #chiudiModale, #aggiungiCoautore, #rimuoviCoautore, #smettiCollaborare, input[name=apriCommento], #pubblicaCommento {
+            background-color: #90EE90;
+            color: #000000;
+        }
+
+        #back:hover, #Btn:hover, #changeGraphic:hover, #pubblicaPost:hover, #mettiLike:hover, #mettiDislike:hover, #eliminaBlog:hover, #confermaEliminazione:hover, #chiudiModale:hover, #rimuoviCoautore:hover, #smettiCollaborare:hover,  #aggiungiCoautore:hover, input[name=apriCommento]:hover, #pubblicaCommento:hover {
+            background-color: rgba(144, 238, 144, 0.6);
+        }
+
+        /* Input */
+
+        input[name=cancellaPost], input[name=cancellaCommento]  {
+            background-color: rgba(135, 135, 135, 0.5);
+        }
+
+        input[name=cancellaPost]:hover, input[name=cancellaCommento]:hover {
+            background-color: #878787;
+        }

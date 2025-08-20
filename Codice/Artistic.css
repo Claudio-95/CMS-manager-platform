@@ -1,0 +1,44 @@
+/* CSS Document "Artistic" */
+/* FONT E STILE GENERALE */
+
+@import url('https://fonts.googleapis.com/css?family=Overlock&display=swap');
+
+body {
+    font-family: Overlock, cursive;
+    background-image: url(img/Artistic.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+}
+
+    /* HEADER */
+
+    header {
+        background-color: #8FBC8F;
+        color: #000000;
+    }
+
+    /* CONTENT */
+
+    .content {
+        background-color: rgba(135, 135, 135, 0.7);
+        font-size: 1.1em;
+    }
+
+        /* Tutti i pulsanti */
+
+        #back, #Btn, #changeGraphic, #pubblicaPost, #mettiLike, #mettiDislike, #confermaEliminazione, #chiudiModale, #aggiungiCoautore, #rimuoviCoautore, #smettiCollaborare, input[name=apriCommento], #pubblicaCommento {
+            background-color: #8FBC8F;
+            color: #000000;
+        }
+
+        /* Input */
+
+        input[name=cancellaPost], input[name=cancellaCommento]  {
+            background-color: #8FBC8F;
+        }
+
+        input[name=cancellaPost]:hover, input[name=cancellaCommento]:hover {
+            background-color: #696969;
+        }

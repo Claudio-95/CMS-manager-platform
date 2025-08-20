@@ -1,0 +1,90 @@
+/* CSS Document "Dark" */
+/* FONT E STILE GENERALE */
+
+@import url('https://fonts.googleapis.com/css?family=Pathway+Gothic+One&display=swap');
+
+body {
+    font-family: "Pathway Gothic One", sans-serif;
+    background-color: #000000;
+    font-size: 1.2em;
+}
+
+    /* HEADER */
+
+    header {
+        background-color: #323232;
+    }
+
+    /* Barra e pulsante di ricerca */
+
+    #searchSubmit {
+        font-size: 0.83em;
+    }
+
+    /* CONTENT */
+
+    .content {
+        background-color: rgba(50, 50, 50, 0.6);
+        color: #FFFFFF;
+    }
+
+        /* Input text cercaCoautore */
+
+        #cercaCoautore {
+            background-color: #696969;
+            color: #FFFFFF;
+        }
+
+        #cercaCoautore::placeholder {
+            color: #FFFFFF;
+        }
+
+        /* Grafica blog */
+
+        #graficaBlog {
+            color: #FFFFFF;
+            background-color: #696969;
+        }
+
+        /* Modali */
+
+        .modal-content {
+            color: #000000;
+        }
+
+        /* Textarea */
+
+        textarea {
+            background-color: #696969;
+            color: #FFFFFF;
+        }
+
+        textarea:focus {
+            color: #FFFFFF;
+        }
+
+        textarea::placeholder {
+            color: #FFFFFF;
+        }
+
+        /* Tutti i pulsanti */
+
+        #back, #Btn, #changeGraphic, #pubblicaPost, #mettiLike, #mettiDislike, #confermaEliminazione, #chiudiModale, #aggiungiCoautore, #rimuoviCoautore, #smettiCollaborare, input[name=apriCommento], #pubblicaCommento {
+            background-color: #696969;
+            color: #FFFFFF;
+        }
+
+        #back:hover, #Btn:hover, #changeGraphic:hover, #pubblicaPost:hover, #mettiLike:hover, #mettiDislike:hover, #eliminaBlog:hover, #confermaEliminazione:hover, #chiudiModale:hover, #rimuoviCoautore:hover, #smettiCollaborare:hover, #aggiungiCoautore:hover, input[name=apriCommento]:hover, #pubblicaCommento:hover {
+            background-color: #323232;
+        }
+
+        /* Input */
+
+        input[name=cancellaPost], input[name=cancellaCommento]  {
+            background-color: #696969;
+            color: #FFFFFF;
+        }
+
+        input[name=cancellaPost]:hover, input[name=cancellaCommento]:hover {
+            background-color: #323232;
+        }

@@ -1,0 +1,72 @@
+/* CSS Document "Medieval" */
+/* FONT E STILE GENERALE */
+
+@import url('https://fonts.googleapis.com/css?family=Berkshire+Swash&display=swap');
+
+body {
+    font-family: "Berkshire Swash", cursive;
+    background-image: url(img/Medieval.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+}
+
+    /* HEADER */
+
+    header {
+        background-color: #878787;
+    }
+
+    /* CONTENT */
+
+    #content-blog {
+        background-color: rgba(135, 135, 135, 0.7);
+    }
+
+        /* Input text cercaCoautore */
+
+        #cercaCoautore {
+            background-color: #C2C2C2;
+        }
+
+        #cercaCoautore::placeholder {
+            color: #000000;
+        }
+
+        /* Grafica blog */
+
+        #graficaBlog {
+            background-color: #C2C2C2;
+        }
+
+        /* Textarea */
+
+        textarea {
+            background-color: #C2C2C2;
+        }
+
+        textarea::placeholder {
+            color: #000000;
+        }
+
+        /* Tutti i pulsanti */
+
+        #back, #Btn, #changeGraphic, #pubblicaPost, #mettiLike, #mettiDislike, #confermaEliminazione, #chiudiModale, #aggiungiCoautore, #rimuoviCoautore, #smettiCollaborare, input[name=apriCommento], #pubblicaCommento {
+            background-color: #C2C2C2;
+            color: #000000;
+        }
+
+        #back:hover, #Btn:hover, #changeGraphic:hover, #pubblicaPost:hover, #mettiLike:hover, #mettiDislike:hover, #eliminaBlog:hover, #confermaEliminazione:hover, #chiudiModale:hover, #rimuoviCoautore:hover, #smettiCollaborare:hover, #aggiungiCoautore:hover, input[name=apriCommento]:hover, #pubblicaCommento:hover {
+            background-color: #878787;
+        }
+
+        /* Input */
+
+        input[name=cancellaPost], input[name=cancellaCommento]  {
+            background-color: rgba(135, 135,135, 0.5);
+        }
+
+        input[name=cancellaPost]:hover, input[name=cancellaCommento]:hover {
+            background-color: #878787;
+        }

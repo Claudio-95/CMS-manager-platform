@@ -1,0 +1,78 @@
+/* CSS Document "Futuristic" */
+/* FONT E STILE GENERALE */
+
+@import url('https://fonts.googleapis.com/css?family=Orbitron&display=swap');
+
+body {
+    font-family: Orbitron, sans-serif;
+    background-image: url(img/Futuristic.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+}
+
+    /* HEADER */
+
+    header {
+        background-color: #808080;
+    }
+
+    /* CONTENT */
+
+    .content {
+        background-color: rgba(135, 135, 135, 0.7);
+        font-weight: 700;
+    }
+
+        /* Input text cercaCoautore */
+
+        #cercaCoautore {
+            background-color: #696969;
+            color: #FFFFFF;
+        }
+
+        #cercaCoautore::placeholder {
+            color: #FFFFFF;
+        }
+
+        /* Grafica blog */
+
+        #graficaBlog {
+            color: #FFFFFF;
+            background-color: #696969;
+        }
+
+        /* Textarea */
+
+        textarea {
+            background-color: #808080;
+            color: #FFFFFF;
+        }
+
+        textarea::placeholder {
+            color: #FFFFFF;
+        }
+
+        /* Tutti i pulsanti */
+
+        #back, #Btn, #changeGraphic, #pubblicaPost, #mettiLike, #mettiDislike, #confermaEliminazione, #chiudiModale, #aggiungiCoautore, #rimuoviCoautore, #smettiCollaborare, input[name=apriCommento], #pubblicaCommento {
+            background-color: #696969;
+            color: #FFFFFF;
+        }
+
+        #back:hover, #Btn:hover, #changeGraphic:hover, #pubblicaPost:hover, #mettiLike:hover, #mettiDislike:hover, #eliminaBlog:hover, #confermaEliminazione:hover, #chiudiModale:hover, #rimuoviCoautore:hover, #smettiCollaborare:hover, #aggiungiCoautore:hover, input[name=apriCommento]:hover, #pubblicaCommento:hover {
+            background-color: #808080;
+        }
+
+        /* Input */
+
+        input[name=cancellaPost], input[name=cancellaCommento]  {
+            background-color: #808080;
+            color: #FFFFFF;
+        }
+
+        input[name=cancellaPost]:hover, input[name=cancellaCommento]:hover {
+            background-color: #808080;
+            color: #000000;
+        }
